@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class XiaozhiAppTests {
+public class LLMTest {
 
     // 测试一：直接构建模型对象，使用官方免费 demo 接口
     @Test
-    void testDP() {
+    public void testDP() {
         OpenAiChatModel model = OpenAiChatModel.builder()
                 .baseUrl("http://langchain4j.dev/demo/openai/v1")
                 .apiKey("demo")
@@ -21,12 +21,12 @@ class XiaozhiAppTests {
         System.out.println(answer);
     }
 
-    // 测试二：通过 Spring 注入使用
+    // 测试二：通过 Spring 注入使用（需要 application.yml 配置）
     @Autowired
     private OpenAiChatModel openAiChatModel;
 
     @Test
-    void test2() {
+    public void test2() {
         String answer = openAiChatModel.chat("我是谁？");
         System.out.println(answer);
     }

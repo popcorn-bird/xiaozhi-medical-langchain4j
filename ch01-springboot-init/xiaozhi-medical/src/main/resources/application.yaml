@@ -1,3 +1,15 @@
-spring:
-  application:
-    name: xiaozhi-medical
+server:
+  port: 8080
+
+langchain4j:
+  open-ai:
+    chat-model:
+      base-url: http://langchain4j.dev/demo/openai/v1
+      api-key: demo
+      model-name: gpt-4o-mini
+      log-requests: true
+      log-responses: true
+
+logging:
+  level:
+    root: info
