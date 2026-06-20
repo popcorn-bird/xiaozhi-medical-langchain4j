@@ -17,6 +17,12 @@ langchain4j:
       log-responses: true
       timeout: PT60S
 
+  community:
+    dashscope:
+      chat-model:
+        api-key: ${DASH_SCOPE_API_KEY}
+        model-name: qwen-max
+
 logging:
   level:
     root: info

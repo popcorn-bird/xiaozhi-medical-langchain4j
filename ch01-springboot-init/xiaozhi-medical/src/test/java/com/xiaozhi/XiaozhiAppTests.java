@@ -30,4 +30,15 @@ class XiaozhiAppTests {
         String answer = openAiChatModel.chat("我是谁？");
         System.out.println(answer);
     }
+
+    // 测试四：阿里百炼 Qwen 模型
+    @Autowired
+    private dev.langchain4j.community.model.dashscope.QwenChatModel qwenChatModel;
+
+    @Test
+    void testQwen() {
+        System.out.println("====== 阿里百炼 Qwen 测试 ======");
+        String answer = qwenChatModel.chat("你好，用一句话介绍你自己。");
+        System.out.println("Qwen 回答：" + answer);
+    }
 }
