@@ -9,6 +9,13 @@ langchain4j:
       model-name: gpt-4o-mini
       log-requests: true
       log-responses: true
+  ollama:
+    chat-model:
+      base-url: http://localhost:11434
+      model-name: deepseek-r1:1.5b
+      log-requests: true
+      log-responses: true
+      timeout: PT60S
 
 logging:
   level:

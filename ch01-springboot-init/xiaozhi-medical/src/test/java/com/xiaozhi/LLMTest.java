@@ -30,4 +30,16 @@ public class LLMTest {
         String answer = openAiChatModel.chat("我是谁？");
         System.out.println(answer);
     }
+
+    // 测试三：Ollama + DeepSeek 本地模型
+    @Autowired
+    private dev.langchain4j.model.ollama.OllamaChatModel ollamaChatModel;
+
+    @Test
+    void testOllama() {
+        System.out.println("====== Ollama + DeepSeek 测试 ======");
+        System.out.println("本地模型响应较慢，请耐心等待...");
+        String answer = ollamaChatModel.chat("你好，用一句话介绍你自己。");
+        System.out.println("DeepSeek 回答：" + answer);
+    }
 }
