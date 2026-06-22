@@ -1,0 +1,9 @@
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/LLMTest.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/XiaozhiAppTests.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/assistant/AssistantTest.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/assistant/ChatMemoryTest.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/assistant/MemoryTest.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/assistant/SystemMessageTest.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/assistant/UserMessageTest.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/store/MongoCrudTest.java
+/Users/niuzhuzhude/Downloads/xiaozhi-medical-langchain4j-main/ch05-ch08-ai-service/src/test/java/com/xiaozhi/store/PersistenceChatMemoryTest.java
