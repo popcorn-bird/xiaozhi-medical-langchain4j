@@ -1,0 +1,9 @@
+com/xiaozhi/assistant/SystemMessageTest.class
+com/xiaozhi/LLMTest.class
+com/xiaozhi/store/MongoCrudTest.class
+com/xiaozhi/assistant/UserMessageTest.class
+com/xiaozhi/assistant/AssistantTest.class
+com/xiaozhi/assistant/MemoryTest.class
+com/xiaozhi/assistant/ChatMemoryTest.class
+com/xiaozhi/store/PersistenceChatMemoryTest.class
+com/xiaozhi/XiaozhiAppTests.class
